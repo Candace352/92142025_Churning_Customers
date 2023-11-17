@@ -43,7 +43,7 @@ feature_questions = {
     'Contract': 'What type of contract do you have?',
     'PaperlessBilling': 'Do you use paperless billing?',
     'SeniorCitizen': 'Are you a senior citizen?',
-    'tenure': 'What is your tenure?',
+    'tenure': 'What is your tenure? (0-100)',
     'MonthlyCharges': 'What are your monthly charges?'
 }
 
