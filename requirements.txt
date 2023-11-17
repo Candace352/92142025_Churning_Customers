@@ -1,6 +1,6 @@
-﻿streamlit
+streamlit
 numpy
 pandas
 tensorflow
-sklearn
+scikit-learn
 pickle
