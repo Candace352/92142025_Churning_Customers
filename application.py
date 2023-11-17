@@ -54,7 +54,7 @@ categorical_features = ['Partner', 'Dependents', 'OnlineSecurity', 'OnlineBackup
 #specifying the data types for the input data
 for feature, question in feature_questions.items():
     if feature in ['tenure', 'MonthlyCharges']:
-        customer_data[feature] = st.number_input(question, min_value=0.0, max_value=100.0)
+        customer_data[feature] = st.number_input(question, min_value=0.0, max_value=10000000.0)
     elif feature == 'SeniorCitizen':
      customer_data[feature] = st.selectbox(question, [0, 1])
     elif feature == 'Contract':
